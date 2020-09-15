@@ -9,5 +9,4 @@ main(){
 	sum = integer1 + integer2;
 	printf("Their sum is %d\n", sum);
 	return 0;
-	
 }
