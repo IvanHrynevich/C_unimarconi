@@ -8,5 +8,6 @@ main(){
 	scanf("%d", &integer2);
 	sum = integer1 + integer2;
 	printf("Their sum is %d\n", sum);
+	system("PAUSE");//console don't close after that command
 	return 0;
 }
