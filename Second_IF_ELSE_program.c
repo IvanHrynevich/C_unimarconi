@@ -7,7 +7,7 @@ main(){
 	printf("Enter the mark from 1 to 100\n");
 	scanf("%d", &mark_cent);
 	if (mark_cent >= 60) {
-		mark_dec - mark_cent * 10.0 / 100.0;
+		mark_dec = mark_cent * 10.0 / 100.0;
 		printf("Accepted!\n");
 		printf("Mark (1-10) is %f\n", mark_dec);
 		if (mark_cent >= 90) printf("Mark A\n");
