@@ -1,4 +1,4 @@
-///*Fires k with minus*/
+///*First4 k odd*/
 #include <stdio.h>
 
 main(){
@@ -6,7 +6,7 @@ main(){
 	printf("Input the char\n");
 	scanf("%d", &k);
 	count=1; odd=1;
-	while (count <= k) { 
+	while (odd <= k) { 
 		printf("The odd number %d = %d\n", count, odd);
 		odd=odd+2;
 		count=count+1;
